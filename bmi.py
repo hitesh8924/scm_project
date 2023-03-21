@@ -48,7 +48,7 @@ txtheight.grid(row=1,column=0)
 
 lblBMIResult = Label(f1b,padx=16,pady=16,bd=16,
                fg="#000000",font=('arial',30,'bold'),
-               bg="skyblue",relief='sunk',width= 34,height= 1 )
+               bg="red",relief='sunk',width= 34,height= 1 )
 lblBMIResult.grid(row=2,column=0)
 
 
@@ -58,7 +58,7 @@ txtlblBMITable.grid(row=1,column=0)
 
 
 txtlblBMITable.insert(END,'Meaning\t\t'+"BMI\n\n")
-txtlblBMITable.insert(END,'Normal weight \t\t'+"19-24,9\n\n")
+txtlblBMITable.insert(END,'Normal weight \t\t'+"18-24,9\n\n")
 txtlblBMITable.insert(END,'Overweight\t\t'+"25-29,9\n\n")
 txtlblBMITable.insert(END,'Obesity level I \t\t'+"30-34,9\n\n")
 txtlblBMITable.insert(END,'Obesity level II \t\t'+"-35-39,9\n\n")
