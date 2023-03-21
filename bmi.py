@@ -35,7 +35,7 @@ f1b.pack(side=TOP)
 
 lblTitle=Label(Tops,text="           BODY MASS INDEX           ",padx=16,pady=16,bd=16,
                fg="#000000",font=('arial',54,'bold'),
-               bg="sky blue",relief='raise',width= 32 ,height=1)
+               bg="green",relief='raise',width= 32 ,height=1)
 lblTitle.pack()
 
 lblweight=Label(f1a, text= "Select Weight in Kilograms",font=('arial',20,'bold'),bd=20).grid(row=0,column=0)      
